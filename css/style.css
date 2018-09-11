@@ -1,0 +1,94 @@
+html , body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../assets/back2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+header {
+    margin-top: 10px;
+    text-align: center;
+}
+nav {
+    margin-top: 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: dimgrey;
+    display: inline;    
+    padding: 15px 12%;
+    border-radius: 20px;
+}
+nav ul li {
+     display:inline;
+     padding: 10px;
+}
+nav ul li a {
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    margin: 0 15px;
+    font-size: 25px;
+    font-weight: bold;
+/*    margin: 12px -2px;*/
+}
+nav ul li a:hover {
+    background-color:cadetblue;
+}
+.Nature {
+    background-image: url(../assets/1.jpg);
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 200px;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+.Event {
+    background-image: url(../assets/2.jpg);
+    height: 290px;
+    background-position: center;
+    margin: 50px 200px;
+    background-attachment: fixed;
+    border-radius: 20px;
+    background-size: cover; 
+    position: relative;
+}
+section {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    border-radius: 12px;
+}
+
+.Music {
+    background-image: url(../assets/3.jpg);
+     height: 290px;
+    background-position: center;
+    margin: 50px 200px;
+    background-attachment: fixed;
+    border-radius: 20px;
+    background-size: cover;  
+}
+#Design , #Studio {
+    border-radius: 12px;
+    margin: 0 2%;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+}
