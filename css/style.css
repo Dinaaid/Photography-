@@ -1,3 +1,7 @@
+* {
+    transition: all 0.3s ease-in-out 0s;
+
+}
 html , body {
     height: 100%;
     margin: 0;
@@ -52,25 +56,47 @@ nav ul li a:hover {
     margin: 50px 200px;
     background-attachment: fixed;
     border-radius: 20px;
+    position: relative;
+}
+.Natureparagraph {
+    position: absolute;
+    /* background-color: black; */
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)); 
+    color: white;
+    top: 10%;
+    right: 2%;
+    padding: 0 2%;
+    border-radius: 20px;
+    width: 45%;   
+    height: auto;
+
 }
 .Event {
     background-image: url(../assets/2.jpg);
     height: 290px;
     background-position: center;
+    position: relative;
     margin: 50px 200px;
     background-attachment: fixed;
     border-radius: 20px;
     background-size: cover; 
-    position: relative;
 }
 section {
     position: absolute;
     bottom: 0;
     color: white;
     padding: 0 20px;
-    background: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    margin: 0 auto;
+    /* width: 96%; */
+    background-color: black;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
     text-align: justify;
     border-radius: 12px;
+    overflow: hidden;
+}
+.section:hover {
+    height: auto;
 }
 
 .Music {
@@ -81,7 +107,24 @@ section {
     background-attachment: fixed;
     border-radius: 20px;
     background-size: cover;  
+    position: relative;
 }
+.paragarph {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 0 20px;
+    height: 60px;
+    background-color: black;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+    text-align: justify;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.paragarph:hover {  
+    height: 70%;
+}
+
 #Design , #Studio {
     border-radius: 12px;
     margin: 0 2%;
@@ -92,3 +135,5 @@ footer {
     margin-top: 20px;
     font-size: 15px;
 }
+
+
